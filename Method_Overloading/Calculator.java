@@ -3,7 +3,6 @@ package Method_Overloading;
 public class Calculator {
     int performAddition(int a,int b){
         int result = a+b;
-
         return result;
     }
     int performAddition(int a,int b,int c, int d){
