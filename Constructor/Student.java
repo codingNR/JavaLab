@@ -1,12 +1,12 @@
 package Constructor;
 
 public class Student {
-    private int id = 30;
+    private int id = 30;  //we always have to modify the name of the variables. And also we must set the type (here "privte" is modifier and "int" is type)
     private String name = "nirzhar";
     private int age = 16;
 
-    public Student(){
-        System.out.println(name);
+    public Student(){          // a constructor name must be the class name itself(here it's 'Student').
+        System.out.println(id);
     }
 
     public Student(int id){
