@@ -11,6 +11,7 @@ public class Student {
 
     public Student(int id){
         this.id = id;
+        System.out.println(this.id);  //why this is not printing in Person class?(prob!)
     }
 
     public Student(int id,String name,int age){
